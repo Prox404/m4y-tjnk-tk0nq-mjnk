@@ -63,7 +63,7 @@
         }
         let date = new Date(year, month - 1, day);
         date.setDate(date.getDate() + 1);
-        result.innerHTML = date.getDate() + ":" + (date.getMonth() + 1) + ":" + date.getFullYear();
+        result.innerHTML = date.getDate() + "/" + (date.getMonth() + 1) + "/" + date.getFullYear();
     }
 
     function addAWeek(){
@@ -79,7 +79,7 @@
         
         let date = new Date(year, month - 1, day);
         date.setDate(date.getDate() + 7);
-        result.innerHTML = date.getDate() + ":" + (date.getMonth() + 1) + ":" + date.getFullYear();
+        result.innerHTML = date.getDate() + "/" + (date.getMonth() + 1) + "/" + date.getFullYear();
     }
 
     function addAMonth(){
@@ -95,7 +95,7 @@
 
         let date = new Date(year, month - 1, day);
         date.setMonth(date.getMonth() + 1);
-        result.innerHTML = date.getDate() + ":" + (date.getMonth() + 1) + ":" + date.getFullYear();
+        result.innerHTML = date.getDate() + "/" + (date.getMonth() + 1) + "/" + date.getFullYear();
     }
 
     function addAYear(){
@@ -111,7 +111,7 @@
         
         let date = new Date(year, month - 1, day);
         date.setFullYear(date.getFullYear() + 1);
-        result.innerHTML = date.getDate() + ":" + (date.getMonth() + 1) + ":" + date.getFullYear();
+        result.innerHTML = date.getDate() + "/" + (date.getMonth() + 1) + "/" + date.getFullYear();
     }
     
 </script>
